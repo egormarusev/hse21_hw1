@@ -45,6 +45,9 @@ $ platanus scaffold -o Poil -c Poil_contig.fa -IP1 PE1.fq.trimmed PE2.fq.trimmed
 $ platanus gap_close -o Poil -c Poil_scaffold.fa -IP1 PE1.fq.trimmed PE2.fq.trimmed -OP2 MP1.fq.int_trimmed $ MP2.fq.int_trimmed 2> gap_close.log
 $ rm *trimmed
 ```
+### Результаты
+![image](https://user-images.githubusercontent.com/75699392/139103565-6cc11da3-e636-428e-9101-3642fa5f3b20.png)
+см. в src
 
 
 
