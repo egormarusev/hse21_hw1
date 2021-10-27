@@ -38,7 +38,7 @@ $ multiqc fastqc_trimmed -o multiqc_trimmed
 ![image](https://user-images.githubusercontent.com/75699392/139102755-cca87fc6-919e-42ef-acf2-2e84de7a6717.png)
 ![image](https://user-images.githubusercontent.com/75699392/139102858-aa779c09-dfb4-4f7c-a2db-a635cd3f2362.png)
 ```
-$ screen -S mashishkin_1_assemble
+$ screen -S eamarusev
 $ bash
 $ platanus assemble -o Poil -f PE1.fq.trimmed PE2.fq.trimmed 2> assemble.log
 $ time platanus scaffold -o Poil -t 1 -c Poil_contig.fa -IP1 *.trimmed -OP2 *.int_trimmed 2> scaffold.log
