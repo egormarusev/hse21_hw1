@@ -43,7 +43,6 @@ $ bash
 $ platanus assemble -o Poil -f PE1.fq.trimmed PE2.fq.trimmed 2> assemble.log
 $ time platanus scaffold -o Poil -t 1 -c Poil_contig.fa -IP1 *.trimmed -OP2 *.int_trimmed 2> scaffold.log
 $ platanus gap_close -o Poil -t 1 -c Poil_scaffold.fa -IP1 *.trimmed -OP2 *.int_trimmed 2> gapclose.log
-$ rm *trimmed
 ```
 ### Результаты
 ![image](https://user-images.githubusercontent.com/75699392/139103565-6cc11da3-e636-428e-9101-3642fa5f3b20.png)
